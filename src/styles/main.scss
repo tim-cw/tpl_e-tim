@@ -13,9 +13,15 @@
 
 // GENERIC
 // Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
+@import 'generic/normalize.scss';
+@import 'generic/reset.scss';
 
 // ELEMENTS
 // Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
+@import 'elements/body.scss';
+@import 'elements/headings.scss';
+@import 'elements/links.scss';
+@import 'elements/wrapper.scss';
 
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
